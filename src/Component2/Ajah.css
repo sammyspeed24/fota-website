@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  html, body {
+    font-size: 15px;
+    color: #222;
+     font-family: "Quicksand", sans-serif;
+    width: 100%!important;
+    height: 100% !important;
+  }
+
+  .AjahChurch-container{
+    width: 100% !important;
+    height:100vh;
+    background: linear-gradient(rgba(78, 78, 78, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../Component2/AjahImg/ajah3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+}
+.content-wrapper{
+    position: relative;
+    top:50%;
+    transform: translate(-50%, -50%);
+    left:50%;
+    text-align: center;
+}
+
+.content-wrapper h1{
+font-size: 6rem;
+color:yellow;
+}
+.MoreInfo{
+    position: relative;
+    top:60px;
+}
+.btn-lg{
+    width: 10% !important;
+   
+}
+.btn-lg:hover{
+    width: 10% !important;
+    background-color: yellow!important;
+}
+.btn-outline-success{
+    color: #fff!important;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-color: yellow!important;
+    transition: .5s ease-in-out;
+}
+.btn-outline-success:hover{
+    color: #000!important;
+    font-weight: bold;
+    transition: .5s ease-in-out;
+  
+}
